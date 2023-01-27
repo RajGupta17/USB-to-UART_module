@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Tactile Switch")(type "KiCad")(uri "/home/raj-zephyrus-g15/USB-to-UART/pcb_design/component libraries/Tactile Switch")(options "")(descr ""))
+  (lib (name "Pin header 01x06")(type "KiCad")(uri "/home/raj-zephyrus-g15/USB-to-UART/pcb_design/component libraries/Pin header 01x06")(options "")(descr ""))
+  (lib (name "Pin header 01x04")(type "KiCad")(uri "/home/raj-zephyrus-g15/USB-to-UART/pcb_design/component libraries/Pin header 01x04")(options "")(descr ""))
+)
