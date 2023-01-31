@@ -1,0 +1,20 @@
+.L8050QLT1G :1 ;Trans GP BJT NPN 25V 0.8A 3-Pin SOT-23 T/R
+L8050QLT1G
+*STM IC
+*NGS
+*PLB 1="B" 2="E" 3="C"
+*MXP 3
+*DFN L8050QLT1G
+~!Manufacturer_Name (Leshan Radio)
+~!Manufacturer_Part_Number (L8050QLT1G)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-558356.pdf)
+~!Height (1.11mm)
+~!3D_Model (L8050QLT1G)
+L8050QLT1G
+1.1!U 2.1!U 3.1!U 

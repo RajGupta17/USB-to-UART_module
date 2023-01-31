@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "L8050QLT1G"
+   (description "Trans GP BJT NPN 25V 0.8A 3-Pin SOT-23 T/R")
+   (family "ANA")
+   (package "L8050QLT1G")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-558356.pdf")
+   (attribute "Geometry.Height" "1.11mm")
+   (attribute "Manufacturer_Name" "Leshan Radio")
+   (attribute "Manufacturer_Part_Number" "L8050QLT1G")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "L8050QLT1G")
+    (pin "B" 1 PS)
+    (pin "E" 2 PS)
+    (pin "C" 3 PS)
+   )
+  )
+  (symbol "L8050QLT1G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "L8050QLT1G"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.46 -0.65)
+      (pt 1.46 -0.65)
+      (pt 1.46 0.65)
+      (pt -1.46 0.65)
+      (pt -1.46 -0.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.46 2.45)
+      (pt 2.46 2.45)
+      (pt 2.46 -3.1)
+      (pt -2.46 -3.1)
+      (pt -2.46 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.95 -2)
+      (arc (pt -0.950 -2.000) (pt -1.000 -2.100) (pt -0.900 -2.000) (start 180.0) (sweep 90.0))
+      (pt -0.95 -2.1)
+      (arc (pt -0.950 -2.100) (pt -1.000 -2.100) (pt -0.900 -2.000) (start 180.0) (sweep -90.0))
+      (pt -0.95 -2)
+      (arc (pt -0.950 -2.000) (pt -1.000 -2.100) (pt -0.900 -2.000) (start 180.0) (sweep 90.0))
+      (pt -0.95 -2.1))))
+   (leg 1 (pt -0.950 -1.000) (padstack 0))
+   (leg 2 (pt 0.950 -1.000) (padstack 0))
+   (leg 3 (pt 0.000 1.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 0.900 0 0 90.000))
+   )
+   (model "L8050QLT1G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

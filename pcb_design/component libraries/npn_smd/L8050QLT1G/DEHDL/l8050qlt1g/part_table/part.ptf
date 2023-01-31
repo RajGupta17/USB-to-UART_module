@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L8050QLT1G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Leshan Radio", "L8050QLT1G" (!) = "", "L8050QLT1G", "Other", "", "", "", "", "", "", "Trans GP BJT NPN 25V 0.8A 3-Pin SOT-23 T/R", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-558356.pdf", "1.11 mm"
+END_PART
+
+END.

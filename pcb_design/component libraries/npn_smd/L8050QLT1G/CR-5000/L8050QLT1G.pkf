@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "L8050QLT1G"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "L8050QLT1G")
+        (spec "default")
+    )
+)

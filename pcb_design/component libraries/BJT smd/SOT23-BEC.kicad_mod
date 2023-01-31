@@ -1,0 +1,42 @@
+
+(footprint SOT23-BEC (layer F.Cu) (tedit 63D89387)
+  (descr "<b>TO-236</b> ITT Intermetall")
+  (attr smd)
+  (fp_text reference REF** (at 1.27172 -2.54344 0) (layer F.SilkS)
+    (effects (font (size 1.00135433071 1.00135433071) (thickness 0.15)))
+  )
+  (fp_text value SOT23-BEC (at 3.814115 2.542735 0) (layer F.Fab)
+    (effects (font (size 1.00107874016 1.00107874016) (thickness 0.15)))
+  )
+  (pad C smd rect (at 0.0 -1.1) (size 1.0 1.4) (layers F.Cu F.Mask F.Paste))
+  (pad E smd rect (at 0.95 1.1) (size 1.0 1.4) (layers F.Cu F.Mask F.Paste))
+  (pad B smd rect (at -0.95 1.1) (size 1.0 1.4) (layers F.Cu F.Mask F.Paste))
+  (fp_line (start 1.4224 -0.6604) (end 1.4224 0.6604) (layer F.Fab) (width 0.127))
+  (fp_line (start 1.4224 0.6604) (end -1.4224 0.6604) (layer F.Fab) (width 0.127))
+  (fp_line (start -1.4224 0.6604) (end -1.4224 -0.6604) (layer F.Fab) (width 0.127))
+  (fp_line (start -1.4224 -0.6604) (end 1.4224 -0.6604) (layer F.Fab) (width 0.127))
+  (fp_poly
+    (pts
+      (xy -0.229055 -1.2954)
+      (xy 0.2286 -1.2954)
+      (xy 0.2286 -0.712615)
+      (xy -0.229055 -0.712615)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.711908 0.7112)
+      (xy 1.1684 0.7112)
+      (xy 1.1684 1.29669)
+      (xy 0.711908 1.29669)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.17071 0.7112)
+      (xy -0.7112 0.7112)
+      (xy -0.7112 1.29796)
+      (xy -1.17071 1.29796)
+    ) (layer F.Fab) (width 0.01)
+  )
+)
